@@ -1,0 +1,275 @@
+* {
+  
+	box-sizing: border-box;
+}
+
+
+/* * ============================== */
+/* * ============ Body ========== */
+/* * ============================== */
+
+
+body {
+  margin: 0;
+	padding: 0;
+  background-color: #ededed;
+}
+
+html {
+	scroll-behavior: smooth;	
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* * ============================== */
+/* * ============ CABECERA ========== */
+/* * ============================== */
+
+
+.logo {
+  width: 20%;
+}
+
+.logoi {
+  width: 100%;
+  font-size: 2rem;
+}
+
+.navbar {
+	background: #FFCD48;
+
+	top: 0;
+  display: flex;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+  margin: auto;
+	display: flex;
+	justify-content: flex-end;
+  
+}
+
+/* * ============================== */
+/* * ============ CABECERA ========== */
+/* * ============================== */
+
+.cta {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 15px;
+  padding: 2rem;
+  
+}
+
+.cta .title {
+  margin-top: .5rem;
+}
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #4b71da;
+  font-size: 1.2rem;
+  
+  padding:0.7em 1.7em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.2em;  
+}
+
+.btn:hover {
+  background: #163896;
+}
+
+.contenedor-imagen {
+	height: 95vh;
+  background-image: url('https://images.unsplash.com/photo-1534361960057-19889db9621e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+  z-index: 2;
+}
+
+.contenedor-imagen2 {
+	height: 95vh;
+  background-image: url('https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-alimento-para-perros-y-perdida-de-apetito.png?itok=G5sfHrRr');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+
+
+/* * ============================== */
+/* * ============ MAIN ========== */
+/* * ============================== */
+
+
+.main{
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 100px 0;
+  margin: 0 auto;
+ 
+}
+
+
+
+.contenedor-main {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding: 30px 0 60px;
+}
+
+.slogan-contenedor {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.slogan {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.answer-slogan {
+  font-weight: 700;
+  color: #468DFF;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.mascota-parrafo {
+  text-align: left;
+  line-height: 1.5;
+  font-style: italic;
+  color: #615a5a;
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+}
+
+.patita-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.main-btn {
+  
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* * ============================== */
+/* * ============ TARJETAS ========== */
+/* * ============================== */
+
+.contacto-tarjetas {
+  height: 59vh;
+}
+
+.tarjetas {
+  
+  padding-top: 5rem;
+}
+
+.contenedor-tarjeta {
+  display: inline-block;
+}
+
+.tarjeta {
+  display: flex;
+  background-color: rgb(61, 103, 243);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tarjeta:hover {
+  transform: scale(1.5);
+}
+
+.nombre {
+  padding: 1rem;
+  text-align: center;
+  
+  font-weight: 600;
+}
+
+.descripcion {
+  list-style-type: none;
+  background-color: #fff;
+}
+
+
+.img{
+  list-style:none;
+  float:left;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+
+
+
+footer{
+  width: 100%;
+  padding: 10px 12px;
+  background: #bbb;
+  color: #4b71da;
+  
+}
+
+li {list-style:none;
+float: left;
+padding: 10px 20px;
+}
